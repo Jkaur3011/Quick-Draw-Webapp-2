@@ -1,0 +1,43 @@
+#show_sketch {
+    background-color: #551EA1;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Nerko One', cursive;
+}
+
+span{
+    width: 100%;
+}
+#score {
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+    margin-right: 1300px;
+
+}
+
+#timer {
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;  
+}
+
+canvas{
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 120px;
+    animation-name: myCanvas;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myCanvas{
+    from{box-shadow: 10px 10px 50px 2px palevioletred;}
+    to{box-shadow: 10px 10px 50px 2px darkslateblue;}
+}
